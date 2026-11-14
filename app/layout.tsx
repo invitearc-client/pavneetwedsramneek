@@ -15,19 +15,19 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://khemankerwedsnishu.vercel.app/"),
+  metadataBase: new URL("https://pavneetwedsramneek.vercel.app/"),
 
   openGraph: {
-    title: "Khemanker & Nishu",
+    title: "PAVNEET & RAMNEEK ",
     description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
-    url: "https://khemankerwedsnishu.vercel.app/",
+    url: "https://pavneetwedsramneek.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Khemanker & Nishu ",
+        alt: "PAVNEET & RAMNEEK  ",
       }, 
     ],
     type: "website",
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Khemanker & Nishu",
+    title: "PAVNEET & RAMNEEK ",
     description: "Join as they begin their forever. 8, 10 & 11 December, 2026",
     images: ["/og.jpg"],
   },
 
  other: {
-    "og:image:secure_url": "https://khemankerwedsnishu.vercel.app/og.jpg",
+    "og:image:secure_url": "https://pavneetwedsramneek.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 

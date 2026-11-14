@@ -10,12 +10,12 @@ export default function CoupleMessage() {
         </h2>
         <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
           <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-55 md:pl-114 lg:pl-180 3xl:pl-240 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end mt-[-5]">
-            <span className="jacques-francois">Khemanker</span>
+            <span className="jacques-francois">PAVNEET</span>
             <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">
               &
             </span>
             <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">
-              Nishu
+              RAMNEEK 
             </span>
           </h2>
 
@@ -133,17 +133,12 @@ export default function CoupleMessage() {
               </h2>
 
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Rajiv Kakkar (Bade Papa) <br />
-                Rajan Kapila (Fufa ji) <br />
-                Ritu Kapila (Bua ji) <br />
-                Suveera (Sister) <br />
-                Karishma (Sister)
-                <br />
-                Vibhuti (Sister)
-                <br />
-                Vaibhav (Brother) <br />
-                Chirag (Brother)
-              
+                Bhatia Family<br/>
+Nanke & Dadke<br/>
+
+With best compliments<br/>
+
+Navi & Jot
               </h2>
             </div>
           </div>

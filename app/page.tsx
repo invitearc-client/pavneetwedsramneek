@@ -43,28 +43,48 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Mata Ki Chowki",
+      title_ceremony: "Bhog Shri Akhand Path Sahib",
       image: "/assets/mata.webp",
-      venue_address: <>Tuesday, December 8th 2026 <br />16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br /> 7:00 pm Onwards<br/> Followed by Priti bhoj- 8:00 pm Onwards</>,   
-      link: "https://maps.app.goo.gl/gg24u1CNiqb4Y6Ng6",
+      venue_address: <>Saturday, 28th November 2026 <br />At Our Residence<br />108, Basant Avenue, Amritsar<br />11:30 am Onwards<br />Followed by Kirtan & Guru Ka Langar</>,
+      link: "https://maps.app.goo.gl/YtFgUcnwemX14ubf8",
     },
 
     {
-      title_ceremony: "Cocktail Party",
+      title_ceremony: "Jaago Night",
       image: "/assets/cocktail.webp",
-      venue_address: <>Thursday, December 10th 2026 <br /> Hotel Regent Park <br/> Mahavir Marg Jalandar <br /> 8:00 pm Onwards</>,
-      link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
+      venue_address: <>Friday, 4th December 2026<br />At Our Residence<br />108, Basant Avenue, Amritsar<br /> 7:00 pm Onwards</>,
+      link: "https://maps.app.goo.gl/YtFgUcnwemX14ubf8",
     },
 
 
     {
-      title_ceremony: "Wedding & Sehra Bandi Ceremony",
+      title_ceremony: "Wedding Celebrations",
       image: "/assets/anand_amul.png",
       venue_address: <>
-      Shera Bandi on Friday December 11th 2026 timing 7:00 pm at our Residence 16A & 17A, Maharaja Ranjit Singh Avenue <br/> Near Guru Gobind Singh Avenue, Jalandhar <br/> Departure of the Baraat from the Residence at 8:00 PM. <br/>Towards Hotel Regent Park,<br/>  Mahavir Marg, Jalandhar<br /></>,
-      link: "https://maps.app.goo.gl/fjxuRGFQRRJTL6mU7",
+        Saturday, 5th December 2026<br /> Near Guru Gobind Singh Avenue, Jalandhar <br /> <b>Sehra Bandi</b><br />
+        4:00 PM<br />
+        At Our Residence<br /><b>Departure of Barat</b><br />
+        7:00 PM<br />
+        Lilly Resort, Vallah, Amritsar</>,
+      link: "https://maps.app.goo.gl/dcvRv6vipfmxpyNv5",
     },
 
+
+
+    {
+      title_ceremony: "Anand Karaj",
+      image: "/assets/cocktail.webp",
+      venue_address: <>Sunday, 6th December 2026<br />Gurdwara Chhevin Patshahi <br />
+        A Block, Ranjit Avenue, Amritsar<br />10:00 am Onwards<br /></>,
+      link: "https://maps.app.goo.gl/Uhdsez1zWk68xJmt6",
+      venue_address2: <><b>Lunch</b><br />
+
+        1:00 PM<br />
+
+        Comfort Inn Alstonia
+        Ranjit Avenue, </>,
+      link2: "https://maps.app.goo.gl/k1cGqs33T8zJEyQw5",
+    },
 
   ];
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -125,20 +145,20 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/laavan.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/respo_bg_11zon.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/bg.webp')]
+      <div className=" bg-[url('/assets/jodi_bg.webp')] md:bg-[url('/assets/jodi_desktop.webp')] 3xl:bg-[url('/assets/jodi_desktop.webp')]
                        bg-cover bg-no-repeat bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
 
         <RoseHeroTemp />
 
         <div className="pt-38 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
-          <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
+          <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5 ">
 
-            <span className="font-parisienne-regular font-semibold">Khemanker </span>
+            <span className="font-parisienne-regular font-semibold">PAVNEET </span>
 
             <span className="font-playfair-display text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
 
-            <span className="font-parisienne-regular font-semibold mt-1">Nishu</span>
+            <span className="font-parisienne-regular font-semibold mt-1">RAMNEEK </span>
 
           </h2>
 
@@ -157,12 +177,10 @@ export default function Home() {
             </h2>
 
             <hr className="w-16 lg:w-24 border-[#15528A] my-2 md:my-4" />
-            {/* <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
-              Sdn. Rajinder Kaur and Late S. Bupinder Singh Biji
-              <br />
-              Sdn. Manpreet Kaur and S. Gurpreet Singh */}
-              {/* Grandmother Sardarni Surinder Kaur Kamboj and Kamboj Brothers */}
-            {/* </h2> */}
+            <h2 className="text-[#15528A] text-xs md:text-lg lg:text-[26px] font-playfair-display">
+              Late Sdn. Kawaljit Kaur
+              &  S. Surinder Singh
+            </h2>
           </div>
 
           <div className="mt-8 text-center">
@@ -171,24 +189,24 @@ export default function Home() {
             </h2> */}
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-6">
-              You to Join us in the Wedding Celebrations of
+              We cordially invite you to celebrate the auspicious union of their beloved Son
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-14 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
-              Khemanker
+              Pavneet
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl">
-              (S/O Rakesh & Sunita Kakkar)
+              (S/O Sdn. Mandeep Kaur & S. Maninder Singh Bhatia)
             </p>
 
             <h2 className="text-[#15528A] font-parisienne-regular text-center mt-4 text-4xl md:text-6xl lg:text-[100px] leading-tight font-medium">
               <span className="text-[#15528A] font-playfair-display text-center lg:mt-10 mt-0 text-4xl md:text-6xl lg:text-[100px] leading-tight">
-                & </span>   <br /> Nishu
+                & </span>   <br /> Ramneek
             </h2>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl">
-              (D/O Monika & Ved Parkash)
+              (D/o Sdn. Kirandeep Kaur & S. Gurpreet Singh Pasricha)
             </p>
 
             <p className="text-[#15528A] font-playfair-display text-sm md:text-xl lg:text-3xl mt-8">
@@ -210,7 +228,7 @@ export default function Home() {
 
                   <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
                     <span className="text-sm md:text-base lg:text-xl">{event.venue_address}</span>
-                  
+
                   </p>
 
                   <a
@@ -219,9 +237,24 @@ export default function Home() {
                     target="_blank">
                     See the route
                   </a>
+                  {event.link2 && (
+                    <>
+                      <p className="text-[#15528A] font-playfair-display text-sm md:text-base mt-2">
+                        <span className="text-sm md:text-base lg:text-xl">
+                          {event.venue_address2}
+                        </span>
+                      </p>
 
-
-
+                      <a
+                        href={event.link2}
+                        className="text-[#15528A] underline md:text-sm text-[12px] mt-2 font-playfair-display"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        See the route
+                      </a>
+                    </>
+                  )}
                 </div>
               ))}
             </div>
@@ -263,18 +296,18 @@ export default function Home() {
         </div>
       </div> */}
 
-<picture className="block w-full">
-  <source
-    media="(min-width: 768px)"
-    srcSet="/assets/bg_three.webp"
-  />
+      <picture className="block w-full">
+        <source
+          media="(min-width: 768px)"
+          srcSet="/assets/bg_three.webp"
+        />
 
-  <img
-    src="/assets/respo_three.webp"
-    alt=""
-    className="block w-full h-auto"
-  />
-</picture>
+        <img
+          src="/assets/respo_three.webp"
+          alt=""
+          className="block w-full h-auto"
+        />
+      </picture>
 
       <MarriageCountdown />
     </>
