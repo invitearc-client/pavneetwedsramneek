@@ -32,12 +32,12 @@ export default function CoupleMessage() {
                                md:top-24 md:w-54 md:h-90 lg:left-50 lg:top-45 lg:w-97 lg:h-166 3xl:left-68 3xl:top-60 3xl:w-117 3xl:h-186 z-10"
           />
 
-          <img
+          {/* <img
             src="/assets/three.webp"
             alt="flowers"
             className="absolute right-42 top-20 w-27 h-37 md:right-82 md:top-34 md:w-45 
                                md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40"
-          />
+          /> */}
           <img
             src="/assets/six.webp"
             alt="couple"
