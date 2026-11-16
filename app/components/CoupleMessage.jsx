@@ -1,7 +1,9 @@
+"use client";
+import Image from "next/image";
 export default function CoupleMessage() {
   return (
-    <div className="bg-[url('/assets/respo_bg_two5.png')] md:bg-[url('/assets/bg_two4.png')] bg-cover bg-no-repeat">
-      <div className="h-420 md:h-585 lg:h-800 3xl:h-950">
+    <div className="bg-[url('/assets/bg_two4.webp')] bg-cover bg-no-repeat">
+      <div className="">
         <h1 className="text-2xl md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">
           INTRODUCING
         </h1>
@@ -15,7 +17,7 @@ export default function CoupleMessage() {
               &
             </span>
             <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">
-              RAMNEEK 
+              RAMNEEK
             </span>
           </h2>
 
@@ -133,16 +135,24 @@ export default function CoupleMessage() {
               </h2>
 
               <h2 className="font-cormorant font-normal text-[16px] md:text-[18px] lg:text-[24px] text-[#15528A] text-center">
-                Bhatia Family<br/>
-Nanke & Dadke<br/>
-
-With best compliments<br/>
-
-Navi & Jot
+                Bhatia Family
+                <br />
+                Nanke & Dadke
+                <br />
+                With best compliments
+                <br />
+                Navi & Jot
               </h2>
             </div>
           </div>
         </div>
+      <Image
+  src="/assets/couple_bottom2.webp"
+  alt="couple"
+  width={900}
+  height={1200}
+  className="w-full h-auto object-cover mt-30"
+/>
       </div>
     </div>
   );

@@ -44,14 +44,14 @@ export default function Home() {
   const events = [
     {
       title_ceremony: "Bhog Shri Akhand Path Sahib",
-      image: "/assets/mata.webp",
+      image: "/assets/guru.webp",
       venue_address: <>Saturday, 28th November 2026 <br />At Our Residence<br />108, Basant Avenue, Amritsar<br />11:30 am Onwards<br />Followed by Kirtan & Guru Ka Langar</>,
       link: "https://maps.app.goo.gl/YtFgUcnwemX14ubf8",
     },
 
     {
       title_ceremony: "Jaago Night",
-      image: "/assets/cocktail.webp",
+      image: "/assets/jaggo.webp",
       venue_address: <>Friday, 4th December 2026<br />At Our Residence<br />108, Basant Avenue, Amritsar<br /> 7:00 pm Onwards</>,
       link: "https://maps.app.goo.gl/YtFgUcnwemX14ubf8",
     },
@@ -59,7 +59,7 @@ export default function Home() {
 
     {
       title_ceremony: "Wedding Celebrations",
-      image: "/assets/anand_amul.png",
+      image: "/assets/wedding.webp",
       venue_address: <>
         Saturday, 5th December 2026<br /> Near Guru Gobind Singh Avenue, Jalandhar <br /> <b>Sehra Bandi</b><br />
         4:00 PM<br />
@@ -73,7 +73,7 @@ export default function Home() {
 
     {
       title_ceremony: "Anand Karaj",
-      image: "/assets/cocktail.webp",
+      image: "/assets/anand_amul.png",
       venue_address: <>Sunday, 6th December 2026<br />Gurdwara Chhevin Patshahi <br />
         A Block, Ranjit Avenue, Amritsar<br />10:00 am Onwards<br /></>,
       link: "https://maps.app.goo.gl/Uhdsez1zWk68xJmt6",
@@ -151,14 +151,14 @@ export default function Home() {
         <RoseHeroTemp />
 
         <div className="pt-38 md:pt-88 lg:pt-150 3xl:pt-200 relative z-10">
-          <h2 className="text-[#AE633A] text-center leading-tight text-xl md:text-5xl lg:text-[80px] pb-120
+          <h2 className="text-[#AE633A] text-center leading-tight text-2xl md:text-5xl lg:text-[80px] pb-120
                           md:pb-350 lg:pb-470 3xl:pb-550 flex flex-col items-center gap-y-0 lg:gap-y-5 ">
 
-            <span className="font-parisienne-regular font-semibold">PAVNEET </span>
+            <span className="great-vibes-regular font-semibold">Pavneet</span>
 
-            <span className="font-playfair-display text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic">WEDS</span>
+            <span className="great-vibes-regular text-[12px]  md:text-2xl lg:text-[38px] tracking-widest font-cormorant italic font-semibold">Weds</span>
 
-            <span className="font-parisienne-regular font-semibold mt-1">RAMNEEK </span>
+            <span className="great-vibes-regular font-semibold mt-1">Ramneek</span>
 
           </h2>
 

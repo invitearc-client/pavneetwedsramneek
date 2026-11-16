@@ -9,6 +9,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -46,7 +51,7 @@ body {
 }
 
 /* Custom Fonts */
-.lavishly-yours-regular {
+.lavishly-yours-regular{
   font-family: "Lavishly Yours", cursive;
 }
 
@@ -66,7 +71,7 @@ body {
   font-family: 'Cormorant Infant', serif;
 }
 
-.jacques-francois {
+.jacques-francois{
   font-family: 'jacques francois', serif;
 }
 
@@ -74,7 +79,7 @@ body {
   font-family: "Parisienne", cursive;
 }
 
-.font-eb-garamond {
+.font-eb-garamond{
   font-family: "EB Garamond", serif;
 }
 
@@ -82,6 +87,16 @@ body {
 .font-playfair-display{
 font-family: "Playfair Display", serif;
 }
+
+
+.cookie-regular{
+  font-family: "Cookie", cursive;}
+
+
+
+.great-vibes-regular{
+  font-family: "Great Vibes", cursive;}
+
 
 .curved-edge {
   --c: 120px; 
