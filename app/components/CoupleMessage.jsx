@@ -22,13 +22,13 @@ export default function CoupleMessage() {
           </h2>
 
           <img
-            src="/assets/one.webp"
+            src="/assets/couple_1.webp"
             alt="couple"
             className="absolute right-40 w-35 h-28 md:right-78 md:w-60 md:h-46 
                               lg:right-143 lg:w-106 lg:h-83 3xl:right-167 3xl:w-146 3xl:h-103 z-20 cover"
           />
           <img
-            src="/assets/two.webp"
+            src="/assets/couple_2.webp"
             alt="couple_one"
             className="absolute top-15 left-6 w-32 h-55 md:left-21 
                                md:top-24 md:w-54 md:h-90 lg:left-50 lg:top-45 lg:w-97 lg:h-166 3xl:left-68 3xl:top-60 3xl:w-117 3xl:h-186 z-10"
@@ -41,13 +41,13 @@ export default function CoupleMessage() {
                                md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40"
           /> */}
           <img
-            src="/assets/six.webp"
+            src="/assets/couple_3.webp"
             alt="couple"
             className="absolute right-9 top-18 w-39 h-59 md:right-22 md:top-30 md:w-69 
                                md:h-98 lg:right-49 lg:top-55 lg:w-118 lg:h-176 3xl:right-61 3xl:top-67 3xl:w-138 3xl:h-196 z-30"
           />
           <img
-            src="/assets/four.webp"
+            src="/assets/couple_4.webp"
             alt="couple"
             className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
                                md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20"
