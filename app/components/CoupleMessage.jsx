@@ -130,7 +130,7 @@ export default function CoupleMessage() {
                   className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-20 3xl:h-20"
                 />
               </a> */}
-              <h2 className="font-parisienne-regular font-bold text-[18px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
+              <h2 className="font-cormorant font-bold text-[18px] md:text-[20px] lg:text-[28px] text-[#15528A] pt-3">
                 RSVP
               </h2>
 
@@ -141,7 +141,10 @@ export default function CoupleMessage() {
                 <br />
                 With best compliments
                 <br />
-                Navi & Jot
+                Navi & Jot 
+                <br/>
+                7009067029 <br/>
+9569185437
               </h2>
             </div>
           </div>
