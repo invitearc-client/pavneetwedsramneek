@@ -61,7 +61,7 @@ export default function Home() {
       title_ceremony: "Wedding Celebrations",
       image: "/assets/wedding.webp",
       venue_address: <>
-        Saturday, 5th December 2026<br /> Near Guru Gobind Singh Avenue, Jalandhar <br /> <span className="text-xl font-semibold">Sehra Bandi</span><br />
+        Saturday, 5th December 2026<br /> <span className="text-xl font-semibold">Sehra Bandi</span><br />
         4:00 PM<br />
         At Our Residence<br /><span className="text-xl font-semibold">Departure of Barat</span><br />
         7:00 PM<br />
@@ -145,7 +145,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/laavan.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/jodi_bg.webp')] md:bg-[url('/assets/jodi_desktop.webp')] 3xl:bg-[url('/assets/jodi_desktop.webp')]
+      <div className=" bg-[url('/assets/jodi_bg_n.webp')] md:bg-[url('/assets/jodi_desktop_n.webp')] 3xl:bg-[url('/assets/jodi_desktop_n.webp')]
                        bg-cover bg-no-repeat bg-top md:bg-position-[center_top] lg:bg-center w-full overflow-hidden relative">
 
         <RoseHeroTemp />
@@ -164,7 +164,7 @@ export default function Home() {
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
             <h2 className="text-[#15528A] text-[12px] md:text-xl lg:text-2xl md:pt-8 font-playfair-display">
-           ੴ <br/>      ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br /> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
+              ੴ <br />      ਸਚੁ ਪਿਆਰਾ ਤਬ ਜਾਨੀਐ <br /> ਜਾ ਗੁਰੂ ਸਬਦੁ ਵਿਚਾਰਿ ॥
             </h2>
 
             <Image
